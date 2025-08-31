@@ -70,7 +70,7 @@ a {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.0em;
+    letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
 }
@@ -80,7 +80,7 @@ a {
 }
 
 
-button {
+.order-button {
     font-family: 'Roboto', sans-serif;
     background-color: var(--iris);
     cursor: pointer;
@@ -92,7 +92,7 @@ button {
     line-height: 1.5;
 }
 
-button:hover, button:focus {
+.order-button:hover, .order-button:focus {
     background-color: var(--ocean);
 }
 
