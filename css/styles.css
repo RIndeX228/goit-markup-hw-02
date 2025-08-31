@@ -29,22 +29,23 @@ a {
 }
 
 .logo {
-    font-family: 'Railway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+}
 
-    span {
-        color: var(--navy-blue);
-    }
+.logo-span {
+    color: var(--navy-blue);
 }
 
 .nav-menu-item {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    font-weight: 500;
 }
 
 .nav-menu-item:hover, .nav-menu-item:focus {
@@ -87,8 +88,8 @@ button {
     color: var(--white);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.04em;
+    line-height: 1.5;
 }
 
 button:hover, button:focus {
@@ -105,6 +106,10 @@ h3 {
     font-size: 20px;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+}
+
+.title-section-header {
+    letter-spacing: 0.02em;
 }
 
 .values-section-item-text {
@@ -167,8 +172,6 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.footer-logo {
-    span {
-        color: var(--cloud);
-    }
+.footer-logo-span {
+    color: var(--cloud);
 }
